@@ -12,7 +12,7 @@ end
 def long_planeteer_calls(calls) # code an argument here
   true if call.length > 4   
   call_long.["axe", "earth", "wind", "fire"]all? do |call|
-    else call.length <= 4 false
+  false  else call.length <= 4 
   end
 end
 
