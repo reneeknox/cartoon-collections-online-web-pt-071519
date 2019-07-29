@@ -7,7 +7,7 @@ def summon_captain_planet# code an argument here
   # Your code here
 end
 
-def long_planeteer_calls(call_long) # code an argument here
+def long_planeteer_calls(calls_long, calls_short) # code an argument here
   calls_long = ["axe", "earth", "wind", "fire"]
   calls_short = ["wind", "fire", "tree", "axe", "code"]
   call_long.all? do |call| # Your code here
