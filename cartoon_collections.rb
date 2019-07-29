@@ -9,7 +9,7 @@ def summon_captain_planet(veggies)
     planeteer_calls << "#{veggies.capitalize}!"
 end
 
-def long_planeteer_calls(calls) # code an argument here
+def long_planeteer_calls(call) # code an argument here
   if call.length > 4   
     true
   call_long.["axe", "earth", "wind", "fire"]all? do |call|
