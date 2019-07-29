@@ -6,10 +6,13 @@ def summon_captain_planet(veggies)
   planeteer_calls = []
   veggies.collect do |veggies|
     planeteer_calls << "#{veggies.capitalize}!"
+  end
+  planeteer_calls
 end
 
 def long_planeteer_calls
-  
+  call.any? do |i|
+    i.length > 4
 end
 
 def find_the_cheese# code an argument here
