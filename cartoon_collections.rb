@@ -10,6 +10,7 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(calls_long, calls_short) # code an argument here
+ call_long 
   call_long.["axe", "earth", "wind", "fire"]all? do |call| # Your code here
     if call.length < 4? 
   end
