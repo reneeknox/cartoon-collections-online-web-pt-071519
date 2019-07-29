@@ -9,7 +9,7 @@ end
 
 def long_planeteer_calls(call_long) # code an argument here
   calls_long = ["axe", "earth", "wind", "fire"]
-  calls
+  calls_short = ["wind", "fire", "tree", "axe", "code"]
   call_long.all? do |call| # Your code here
     call.length < 4?
   end
